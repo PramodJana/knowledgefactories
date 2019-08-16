@@ -15,29 +15,79 @@
 
 
       <script>
-                   new WOW().init();
-                   </script>
+           new WOW().init();
+      </script>
 
-
+      <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
 
 
 
 
     <title>Hello, world!</title>
   </head>
-  <body style="margin-top:75px">
+  <body style="margin-top:75px; font-family: 'PT Serif', serif;" id="main-page">
   <?php
   include "header.php";
   ?>
 
 
 
-  <div class="jumbotron jumbotron-fluid tag-line">
-<center>  <div class="container">
+
+<center>  <div class="container" style="margin-top:150px">
     <h1 class="display-4">Fullfill All Your Dreams</h1>
     <p class="lead">One Stop Portal Where you will get all help related to education</p>
-</center>  </div>
+ </div>
+ </center>
+
+<br>
+
+
+
+<div class="container" >
+  <center><h3>What will you choose</h3>
+  <hr>
+  <div class="row" >
+    <div class="col-sm" >
+    <div class="card" style="background-color:#f8f7f7; height:500px">
+    <div class="card-header">
+    <h4>B-Tech</h4>
+    </div>
+    <div class="card-body">
+        <img src="image/b-tech.jpg" class="card-img-top" alt="...">
+          <p class="card-text"><br>
+            <a href="#" class="btn btn-secondary btn-block btn-lg active" role="button" aria-pressed="true">Click me to know about B-Tech</a>
+          </p>
+    </div>
+  </div>
 </div>
+<div class="col-sm">
+<div class="card" style="background-color:#f8f7f7; height:500px">
+<div class="card-header">
+  <h4>B-Com</h4>
+</div>
+<div class="card-body">
+    <img src="image/b-com.jpg" class="card-img-top" alt="...">
+      <p class="card-text"><br>
+        <a href="#" class="btn btn-secondary btn-block btn-lg active" role="button" aria-pressed="true">Click me to know about B-Com</a>
+      </p>
+</div>
+</div>
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<br><br>
+<?php
+  include "footer.php";
+ ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

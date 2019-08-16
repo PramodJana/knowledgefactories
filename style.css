@@ -1,3 +1,11 @@
+
+#main-page
+{
+  background-image: url('image/tag-image.jpg');
+  background-position:center;
+ background-repeat:no-repeat;
+ background-size:cover;
+}
 .navbar-brand
 {
   font-size: 30px;
@@ -6,13 +14,4 @@
 .navbar-nav
 {
   font-size: 18px;
-}
-
-.tag-line
-{
-   background-image: url('image/tag-image.jpg');
-   background-position:center;
-	background-repeat:no-repeat;
-	background-size:cover;
-  height:300px;
 }
