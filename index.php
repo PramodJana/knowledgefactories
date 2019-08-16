@@ -47,33 +47,29 @@
 <div class="container" >
   <center><h3>What will you choose</h3>
   <hr>
-  <div class="row" >
-    <div class="col-sm" >
+  <div class="card-deck sibling-fade">
+      <div class="card" style="background-color:#f8f7f7; height:500px">
+      <div class="card-header">
+      <h4 style="color:black">B-Tech</h4>
+      </div>
+      <div class="card-body">
+          <img src="image/b-tech.jpg" class="card-img-top" alt="...">
+            <p class="card-text"><br>
+              <a href="btech-page.php" class="btn btn-secondary btn-block btn-lg active" role="button" aria-pressed="true">Click me to know about B-Tech</a>
+            </p>
+      </div>
+    </div>
     <div class="card" style="background-color:#f8f7f7; height:500px">
     <div class="card-header">
-    <h4>B-Tech</h4>
+      <h4  style="color:black">B-Com</h4>
     </div>
     <div class="card-body">
-        <img src="image/b-tech.jpg" class="card-img-top" alt="...">
+        <img src="image/b-com.jpg" class="card-img-top" alt="...">
           <p class="card-text"><br>
-            <a href="#" class="btn btn-secondary btn-block btn-lg active" role="button" aria-pressed="true">Click me to know about B-Tech</a>
+            <a href="#" class="btn btn-secondary btn-block btn-lg active" role="button" aria-pressed="true">Click me to know about B-Com</a>
           </p>
     </div>
-  </div>
-</div>
-<div class="col-sm">
-<div class="card" style="background-color:#f8f7f7; height:500px">
-<div class="card-header">
-  <h4>B-Com</h4>
-</div>
-<div class="card-body">
-    <img src="image/b-com.jpg" class="card-img-top" alt="...">
-      <p class="card-text"><br>
-        <a href="#" class="btn btn-secondary btn-block btn-lg active" role="button" aria-pressed="true">Click me to know about B-Com</a>
-      </p>
-</div>
-</div>
-</div>
+    </div>
   </div>
 </div>
 
