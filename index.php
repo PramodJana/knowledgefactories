@@ -26,7 +26,7 @@
 
     <title>Hello, world!</title>
   </head>
-  <body style="margin-top:75px; font-family: 'PT Serif', serif;" id="main-page">
+  <body style="margin-top:70px; font-family: 'PT Serif', serif;" id="main-page">
   <?php
   include "header.php";
   ?>
