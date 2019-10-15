@@ -12,9 +12,13 @@
   </head>
   <body>
     <div class="container">
+    <br><h1 class="text-center text-success">Welcome to the Quiz world</h1><br>
         <div class="row">
             <div class="col-sm-6">
+            <div class="card">
+           <div class="card-header">
             <h2>Login form</h2>
+            </div>
                 <form action="validation.php" method="post">
                     <div class="form-group">
                         <label>UserName</label>
@@ -28,12 +32,16 @@
                     <button type="submit" class="btn btn-primary"> Login </button>
 
                 </form>
+                </div>
             </div>
 
 
 
             <div class="col-sm-6">
+            <div class="card">
+            <div class="card-header">
             <h2>SignUp form</h2>
+            </div>
                 <form action="registration.php" method="post">
                     <div class="form-group">
                         <label>UserName</label>
@@ -47,6 +55,7 @@
                     <button type="submit" class="btn btn-primary"> Signin </button>
 
                 </form>
+                </div>
             </div>
         </div>
 
