@@ -29,6 +29,12 @@ echo '
           <a class="nav-link" href="index.php">Home </a>
         </li>
         <li class="nav-item active">
+          <a class="nav-link" href="index.php">Log in </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="index.php">Sign up </a>
+        </li>
+        <li class="nav-item active">
           <a class="nav-link" href="#">About Us </a>
         </li><li class="nav-item active">
           <a class="nav-link" href="#">Contact Us </a>

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+  <link href="style.css" rel="stylesheet">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,25 +23,23 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
 
 
-
-
     <title>Hello, world!</title>
   </head>
   <body style="margin-top:70px; font-family: 'PT Serif', serif;" id="main-page">
   <?php
   include "header.php";
-  ?>
+  ?> 
 
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/motivation1.jpg" class="d-block w-100" alt="...">
+      <img src="img/motivation1.jpg" class="d-block w-100" alt="..." height=500px>
     </div>
     <div class="carousel-item">
-      <img src="img/motivation2.jpg" class="d-block w-100" alt="...">
+      <img src="img/motivation2.jpg" class="d-block w-100" alt="..." height=500px>
     </div>
     <div class="carousel-item">
-      <img src="img/motivation3.jpg" class="d-block w-100" alt="...">
+      <img src="img/motivation3.jpg" class="d-block w-100" alt="..." height=500px>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -52,8 +51,46 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<br>
+  <div class="container">
+    <hr>
+      <div><center><h1>Trending Technologies</h1>
+      <br>
+      <a href="coming.php" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" >Cloud Computing</a>
+      <a href="coming.php" target="_blank" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Artificial Intelligence</a>
+      <a href="coming.php" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Data Analytics</a>
+      <a href="coming.php" target="_blank" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Internet Of Things</a>
+      <a href="coming.php" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Cyber Security</a>
+      <a href="coming.php" target="_blank" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Hadoop</a>
+      </center></div>
+    <hr> 
+  </div>
+<br>
 
-<br><br>
+<div class="container">
+
+</div>
+<center><p style="font-size:40px">Let's Begin our journey...</p></center>
+<div class="container">
+    <div class="row">
+      <div class="col-sm">  
+        <img id="course" src="img/b-tech.PNG">
+      </div>
+      <div class="col-sm">  
+        <img id="course" src="img/b-com.PNG">
+      </div>
+    </div>
+<br>
+    <div class="row">
+      <div class="col-sm">  
+        <img id="course" src="img/bba.PNG">
+      </div>
+      <div class="col-sm">  
+        <img id="course" src="img/bsc.PNG">
+      </div>
+    </div>
+</div>
+<br>
 <?php
   include "footer.php";
  ?>
