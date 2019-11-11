@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
 
 
-    <title>Hello, world!</title>
+    <title>Fine Knowledge</title>
   </head>
   <body style="margin-top:70px; font-family: 'PT Serif', serif;" id="main-page">
   <?php
@@ -74,19 +74,19 @@
 <div class="container">
     <div class="row">
       <div class="col-sm">  
-        <img id="course" src="img/b-tech.PNG">
+       <a href="b_tech.php"> <img src="img/b-tech.PNG" style="width:500px; height:200px;" alt="Responsive image" class="img-thumbnail"></a>
       </div>
       <div class="col-sm">  
-        <img id="course" src="img/b-com.PNG">
+        <a href="coming.php" target="_blank">  <img src="img/b-com.PNG" style="width:500px; height:200px;" alt="Responsive image" class="img-thumbnail"></a>
       </div>
     </div>
 <br>
     <div class="row">
       <div class="col-sm">  
-        <img id="course" src="img/bba.PNG">
+        <a href="coming.php" target="_blank">   <img  src="img/bba.PNG" style="width:500px; height:200px;" alt="Responsive image" class="img-thumbnail"></a>
       </div>
       <div class="col-sm">  
-        <img id="course" src="img/bsc.PNG">
+        <a href="coming.php" target="_blank">   <img src="img/bsc.PNG" style="width:500px; height:200px;" alt="Responsive image" class="img-thumbnail"></a>
       </div>
     </div>
 </div>
