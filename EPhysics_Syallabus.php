@@ -29,57 +29,13 @@
   <?php
   include "header.php";
   ?> 
-
-  <br><br>
-<div class="container">
-    <p style="text-align:center; font-size:70px">Engineering Physics</p>
-    <hr>
-        <center><p style="font-size:40px">Choose Anything You Would like To Start With...<p></center>
-    <hr>
-</div>
-
-
-
-<div class="container">
-  <div class="row">
-      <div class="col">
-      <div class="card">
-           <img src="img/content.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                 <h5 class="card-title" style="text-align:center">Syallabus</h5>
-                  <p class="card-text">Before starting your new journey it's better to have a look at the Syallabus</p>
-                  <center><a href="EPhysics_Syallabus.php" target="_blank" class="btn btn-primary">Let's have a look</a></center>
-               </div>
-      </div>
-      </div>
-
-
-      <div class="col">
-      <div class="card">
-           <img src="img/notes.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                 <h5 class="card-title">Lecture Notes</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-               </div>
-      </div>
-      </div>
-
-      <div class="col">
-      <div class="card">
-           <img src="img/video.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                 <h5 class="card-title">Video Tutorials</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-               </div>
-      </div>
-      </div>
-
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">I am Jane Doe</h1>
+    <h3>And I'm a Photographer</h3>
+    <button>Hire me</button>
   </div>
-
-</div>
-<br>
+</div><br>
 <?php
   include "footer.php";
  ?>
