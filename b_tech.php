@@ -33,7 +33,7 @@
   <div class="container btech1">
   <div class="row">
   <div class="col-sm"><a class="btn btn-outline-success btn-lg btn-block" href="EPhysics.php" role="button">Engineering Physics</a></div>
-  <div class="col-sm"><a class="btn btn-outline-success btn-lg btn-block" href="ppp.php" role="button">Link</a></div>
+  <div class="col-sm"><a class="btn btn-outline-success btn-lg btn-block" href="ppp.php" role="button">Engineering Chemistry</a></div>
   <div class="col-sm"><a class="btn btn-outline-success btn-lg btn-block" href="ppp.php" role="button">Link</a></div>
   <div class="col-sm"><a class="btn btn-outline-success btn-lg btn-block" href="ppp.php" role="button">Link</a></div>
   <div class="col-sm"><a class="btn btn-outline-success btn-lg btn-block" href="ppp.php" role="button">Link</a></div>
