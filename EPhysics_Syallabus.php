@@ -24,18 +24,27 @@
 
 
     <title>Fine Knowledge/B-Tech</title>
+    <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+</style>
   </head>
   <body style="margin-top:70px; font-family: 'PT Serif', serif;" id="main-page">
   <?php
   include "header.php";
   ?> 
-<div class="hero-image">
-  <div class="hero-text">
-    <h1 style="font-size:50px">I am Jane Doe</h1>
-    <h3>And I'm a Photographer</h3>
-    <button>Hire me</button>
+  
+  <div class="bg">
+      <div class="container syallabus">
+      <h4>Introduction</h4>
+      <ul type="disk">
+          <li>aaa</li>
+          <li>bbb</li>
+      </ul>
+      </div>
   </div>
-</div><br>
 <?php
   include "footer.php";
  ?>
